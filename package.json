@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "author": "xiefengnian.xfn <xiefengnian.xfn@antgroup.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@umijs/plugin-electron": "0.2.0-3",
+    "umi": "^4.0.30"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "chokidar": "^3.5.3",
+    "clear-module": "^4.1.2",
+    "electron": "21.2.3",
+    "lodash": "^4.17.21",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.2"
+  }
+}
