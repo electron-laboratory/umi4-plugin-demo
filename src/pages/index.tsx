@@ -37,7 +37,14 @@ export default function HomePage() {
 
       <p>
         丝滑的话给我
-        <a href="https://github.com/xiefengnian/umijs-electron-plugin">
+        <a
+          href="javascript:void(0);"
+          onClick={() => {
+            $api.openExternal(
+              'https://github.com/xiefengnian/umijs-electron-plugin'
+            );
+          }}
+        >
           来个 start 吧
         </a>
         ！
